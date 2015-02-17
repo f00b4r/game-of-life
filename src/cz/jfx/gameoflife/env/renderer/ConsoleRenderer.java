@@ -8,8 +8,9 @@ import cz.jfx.gameoflife.env.entity.World;
  */
 public class ConsoleRenderer implements Renderer {
 
+    @Override
     public void render(World world) {
-        System.out.println("Generation: " + world.getGeneration());
+        System.out.println("G: " + world.getGeneration());
         for (int y = 0; y < world.getRows(); y++) {
             for (int x = 0; x < world.getCols(); x++) {
                 Cell c = world.getCell(x, y);
@@ -20,8 +21,9 @@ public class ConsoleRenderer implements Renderer {
         System.out.println("");
     }
 
+    @Override
     public void renderNeighs(World world) {
-        System.out.println("Generation: " + world.getGeneration());
+        System.out.println("G: " + world.getGeneration());
         for (int y = 0; y < world.getRows(); y++) {
             for (int x = 0; x < world.getCols(); x++) {
                 Cell c = world.getCell(x, y);

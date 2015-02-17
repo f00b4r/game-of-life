@@ -6,8 +6,8 @@ package cz.jfx.gameoflife.env.entity;
 public class Coordinate {
 
     // Vars
-    private int x;
-    private int y;
+    private final int x;
+    private final int y;
 
     public Coordinate(int x, int y) {
         this.x = x;

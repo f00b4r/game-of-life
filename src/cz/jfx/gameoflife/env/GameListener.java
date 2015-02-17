@@ -7,9 +7,9 @@ import cz.jfx.gameoflife.env.entity.World;
  */
 public interface GameListener {
 
-    public void onBeforeGeneration(World world, int g);
+    public void onBeforeGeneration(World world, int generation);
 
-    public void onGeneration(World world, int q, int i);
+    public void onGeneration(World world, int generation, int step);
 
     public void onAfterGeneration(World world);
 }
