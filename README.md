@@ -29,3 +29,10 @@ java -jar gameoflife.jar
 ```
 
 ## Screenshots
+
+### CLI
+![CLI #1](https://raw.githubusercontent.com/f3l1x/GameOfLife/master/gol-cli1.png)
+
+### GUI
+![GUI #1](https://raw.githubusercontent.com/f3l1x/GameOfLife/master/gol1.png)
+![GUI #2](https://raw.githubusercontent.com/f3l1x/GameOfLife/master/gol2.png)
