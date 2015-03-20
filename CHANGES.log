@@ -1,0 +1,11 @@
+Changelog
+
+2.0 - 20/03/2015
+- GUI - better graphic interface
+
+1.0 - 17/02/2015
+- basic world with [x,y] cell grid
+- cell object has two states (LIVE,DEAD) 
+- renderers - interface for dumping world (ATM console)
+- generator - interface for prepared patterns (ATM Wing, Block, Beenhive)
+- listener - GameListener - called onBeforeGeneration, onAfterGeneration, on each onGeneration

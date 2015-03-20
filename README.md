@@ -13,3 +13,19 @@
 
 * JavaScript (http://pmav.eu/stuff/javascript-game-of-life-v3.1.1/)
 * Java Applet (http://www.bitstorm.org/gameoflife/)
+
+## Usage
+
+### CLI
+
+```sh
+java -jar gameoflife.jar --cli
+```
+
+### GUI
+
+```sh
+java -jar gameoflife.jar
+```
+
+## Screenshots
